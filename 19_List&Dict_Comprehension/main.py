@@ -18,3 +18,22 @@
 # sentence = "What is the Airspeed Velocity of an Unladen Swallow?"
 # list = [word for word in sentence.split()]
 # result = {key:len(key) for key in list}
+
+
+import pandas
+student_dict = {
+    "student": ["Anna", "James", "Lily"],
+    "score": [56, 76, 98]
+}
+
+
+student_data = pandas.DataFrame(student_dict)
+
+# for (key, value) in student_data.items():
+#     print(
+#         f"The key is {key} and the value is {value}"
+#     )
+
+# Loop through the rows
+for (index, row) in student_data.iterrows():
+    print(row.student, row.score)
