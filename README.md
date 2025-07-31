@@ -16,4 +16,12 @@ These are the projects to learn and practice python.
 14. Snake Game
 15. Pong Game
 16. Turtle Crossing
-   
+17. Mail Merge Project
+18. CSV File Manipulation
+19. List comprehension
+20. NATO alphabet project
+21. Tkinter converter
+22. Pomodoro
+23. Password Manager
+24. Nato Phonetic
+25. Flash Card App
